@@ -21,6 +21,7 @@ struct DetailEditView: View {
                     }
                     Spacer()
                     Text("\(Int(data.lengthInMinutes)) minutes")
+                        .accessibilityHidden(true)
                 }
             }
             Section(header: Text("Attendees")) {
@@ -40,6 +41,7 @@ struct DetailEditView: View {
                         }
                     }) {
                         Image(systemName: "plus.circle.fill")
+                            .accessibilityLabel("Add attendee")
                     }
                     .disabled(newAttendeeName.isEmpty)
                 }
