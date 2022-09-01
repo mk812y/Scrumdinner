@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct MeetingView: View {
     @Binding var scrum: DailyScrum
@@ -23,7 +24,7 @@ struct MeetingView: View {
                 )
                 Circle()
                     .strokeBorder(lineWidth: 24, antialiased: true)
-                
+                MeetingFooterView(speakers: scrumTimer.speakers, skipAction: scrumTimer.skipSpeaker)
             }
         }
         .padding()
