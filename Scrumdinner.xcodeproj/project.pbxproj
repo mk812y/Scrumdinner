@@ -13,6 +13,7 @@
 		A50F114728C0EA0C00A75C6F /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50F114628C0EA0C00A75C6F /* MeetingFooterView.swift */; };
 		A50F114928C0F2D900A75C6F /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50F114828C0F2D900A75C6F /* AVPlayer+Ding.swift */; };
 		A50F114B28C0F56900A75C6F /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = A50F114A28C0F56900A75C6F /* ding.wav */; };
+		A50F114E28C107C200A75C6F /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50F114D28C107C200A75C6F /* History.swift */; };
 		A5AA796928BE7D4500BF2D34 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA796828BE7D4500BF2D34 /* DetailEditView.swift */; };
 		A5CAF35C28B8DE510058538F /* ScrumdinnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CAF35B28B8DE510058538F /* ScrumdinnerApp.swift */; };
 		A5CAF35E28B8DE510058538F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CAF35D28B8DE510058538F /* MeetingView.swift */; };
@@ -35,6 +36,7 @@
 		A50F114628C0EA0C00A75C6F /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		A50F114828C0F2D900A75C6F /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AVPlayer+Ding.swift"; path = "Scrumdinner/AVPlayer+Ding.swift"; sourceTree = SOURCE_ROOT; };
 		A50F114A28C0F56900A75C6F /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		A50F114D28C107C200A75C6F /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		A5AA796828BE7D4500BF2D34 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		A5CAF35828B8DE510058538F /* Scrumdinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CAF35B28B8DE510058538F /* ScrumdinnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdinnerApp.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				A5CAF36928B900830058538F /* Theme.swift */,
 				A5CAF36C28B909C10058538F /* DailyScrum.swift */,
 				A50F114828C0F2D900A75C6F /* AVPlayer+Ding.swift */,
+				A50F114D28C107C200A75C6F /* History.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50F114E28C107C200A75C6F /* History.swift in Sources */,
 				A5D90BB428BF98A20069FD35 /* ThemePicker.swift in Sources */,
 				A50F114328C0CE3D00A75C6F /* ScrumProgressViewStyle.swift in Sources */,
 				A50F114728C0EA0C00A75C6F /* MeetingFooterView.swift in Sources */,
