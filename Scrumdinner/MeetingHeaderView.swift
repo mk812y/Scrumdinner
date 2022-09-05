@@ -44,8 +44,8 @@ struct MeetingHeaderView: View {
             .accessibilityElement(children: .ignore)
             .accessibilityLabel("Time remaining")
             .accessibilityValue("\(minutesRemaining) minutes")
-            .padding([.top, .horizontal])
         }
+        .padding([.top, .horizontal])
     }
 }
 
