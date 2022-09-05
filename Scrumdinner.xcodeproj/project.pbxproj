@@ -29,6 +29,7 @@
 		A5D90BB228BF960D0069FD35 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D90BB128BF960C0069FD35 /* ThemeView.swift */; };
 		A5D90BB428BF98A20069FD35 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D90BB328BF98A20069FD35 /* ThemePicker.swift */; };
 		A5F8F97E28C60C3D000CEDFC /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8F97D28C60C3D000CEDFC /* ErrorWrapper.swift */; };
+		A5F8F98028C60D78000CEDFC /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8F97F28C60D78000CEDFC /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		A5D90BB128BF960C0069FD35 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		A5D90BB328BF98A20069FD35 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		A5F8F97D28C60C3D000CEDFC /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		A5F8F97F28C60D78000CEDFC /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				A5CAF35B28B8DE510058538F /* ScrumdinnerApp.swift */,
-				A5F8F97D28C60C3D000CEDFC /* ErrorWrapper.swift */,
 				A50F114028C0C91E00A75C6F /* MeetingHeaderView.swift */,
 				A5CAF35D28B8DE510058538F /* MeetingView.swift */,
 				A50F114628C0EA0C00A75C6F /* MeetingFooterView.swift */,
@@ -109,6 +110,8 @@
 				A5D90BB328BF98A20069FD35 /* ThemePicker.swift */,
 				A50F114C28C0F56F00A75C6F /* Resources */,
 				A5CAF36B28B909AF0058538F /* Model */,
+				A5F8F97D28C60C3D000CEDFC /* ErrorWrapper.swift */,
+				A5F8F97F28C60D78000CEDFC /* ErrorView.swift */,
 				A50F114428C0CFD300A75C6F /* ScrumTimer.swift */,
 				A5CAF37028B91DE50058538F /* TrailingIconLabelStyle.swift */,
 				A5CAF35F28B8DE520058538F /* Assets.xcassets */,
@@ -223,6 +226,7 @@
 				A5CAF36A28B900830058538F /* Theme.swift in Sources */,
 				A5CB4F9E28BD2D6F0083F76F /* ScrumsView.swift in Sources */,
 				A5CAF35E28B8DE510058538F /* MeetingView.swift in Sources */,
+				A5F8F98028C60D78000CEDFC /* ErrorView.swift in Sources */,
 				A5CAF35C28B8DE510058538F /* ScrumdinnerApp.swift in Sources */,
 				A5D90BB228BF960D0069FD35 /* ThemeView.swift in Sources */,
 				A5CAF36F28B90D700058538F /* CardView.swift in Sources */,
