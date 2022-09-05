@@ -28,7 +28,7 @@ struct MeetingView: View {
                 MeetingFooterView(speakers: scrumTimer.speakers, skipAction: scrumTimer.skipSpeaker)
             }
         }
-        .padding()
+//        .padding()
         .foregroundColor(scrum.theme.accentColor)
         .onAppear {
             scrumTimer.reset(
