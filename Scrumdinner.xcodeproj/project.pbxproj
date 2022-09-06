@@ -15,6 +15,7 @@
 		A50F114B28C0F56900A75C6F /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = A50F114A28C0F56900A75C6F /* ding.wav */; };
 		A50F114E28C107C200A75C6F /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50F114D28C107C200A75C6F /* History.swift */; };
 		A50F115028C11D2D00A75C6F /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50F114F28C11D2D00A75C6F /* ScrumStore.swift */; };
+		A50F25E728C78F220083EA30 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50F25E628C78F220083EA30 /* HistoryView.swift */; };
 		A5AA796928BE7D4500BF2D34 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA796828BE7D4500BF2D34 /* DetailEditView.swift */; };
 		A5B483DA28C67A5E00DA0012 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B483D928C67A5E00DA0012 /* MeetingTimerView.swift */; };
 		A5B483DC28C680F800DA0012 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B483DB28C680F800DA0012 /* SpeakerArc.swift */; };
@@ -44,6 +45,7 @@
 		A50F114A28C0F56900A75C6F /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		A50F114D28C107C200A75C6F /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		A50F114F28C11D2D00A75C6F /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		A50F25E628C78F220083EA30 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		A5AA796828BE7D4500BF2D34 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		A5B483D928C67A5E00DA0012 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		A5B483DB28C680F800DA0012 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				A5D90BB128BF960C0069FD35 /* ThemeView.swift */,
 				A5D90BB328BF98A20069FD35 /* ThemePicker.swift */,
 				A5F8F97F28C60D78000CEDFC /* ErrorView.swift */,
+				A50F25E628C78F220083EA30 /* HistoryView.swift */,
 				A50F114C28C0F56F00A75C6F /* Resources */,
 				A5CAF36B28B909AF0058538F /* Model */,
 				A5B483DB28C680F800DA0012 /* SpeakerArc.swift */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A50F114E28C107C200A75C6F /* History.swift in Sources */,
+				A50F25E728C78F220083EA30 /* HistoryView.swift in Sources */,
 				A5D90BB428BF98A20069FD35 /* ThemePicker.swift in Sources */,
 				A50F114328C0CE3D00A75C6F /* ScrumProgressViewStyle.swift in Sources */,
 				A50F114728C0EA0C00A75C6F /* MeetingFooterView.swift in Sources */,
